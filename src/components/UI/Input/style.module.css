@@ -1,0 +1,28 @@
+.input{
+  background-image: url("../../../assets/images/lense.svg") ;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 1% 50%;
+  border: 3px solid #696869;
+  border-radius: 20px;
+  padding-left: 40px;
+  width: 901px;
+  height: 60px;
+  font-size: 24px;
+  outline: none;
+  color: rgb(255, 255, 255);
+}
+
+.lightInput{
+  background-image: url("../../../assets/images/lightLense.svg") ;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: 1% 50%;
+  border: 3px solid rgb(75, 40, 70);
+  border-radius: 20px;
+  padding-left: 40px;
+  width: 901px;
+  height: 60px;
+  outline: none;
+  color: rgb(0, 0, 0);
+}

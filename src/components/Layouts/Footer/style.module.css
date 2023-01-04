@@ -1,0 +1,196 @@
+.container{
+  max-width: 1400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.footer{
+  width: 100%;
+  border-top: 1px solid #545151;
+
+}
+
+.name{
+  font-family: 'Orbitron', serif;
+  text-shadow: 0 0 7px rgb(200, 140, 194), 0 0 10px rgb(173, 114, 178),
+  0 0 21px rgb(207, 146, 199), 0 0 42px rgb(32, 6, 40),
+  0 0 82px rgb(72, 12, 89), 0 0 92px rgb(65, 11, 81),
+  0 0 102px rgb(48, 18, 56), 0 0 151px rgb(86, 15, 105);
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+
+.mainDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+ul{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+margin: 0 auto;
+padding: 0;
+}
+
+.badget{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a6a3a3;
+  border-radius: 5px;
+  width: 130px;
+  height:35px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.lightBadget{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 130px;
+  height:35px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.badget:hover{
+  border: 1px solid #b621fe;
+ -webkit-box-shadow: -1px -3px 23px 6px rgba(192, 104, 193, 0.18);
+-moz-box-shadow: -1px -3px 23px 6px rgba(192, 104, 193, 0.18);
+box-shadow: -1px -3px 23px 6px rgba(192, 104, 193, 0.18);
+}
+
+.lightBadget:hover{
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: -1px -3px 30px 6px rgba(255, 255, 255, 0.336);
+ -moz-box-shadow: -1px -3px 30px 6px rgba(255, 255, 255, 0.329);
+ box-shadow: -1px -3px 30px 6px rgba(255, 255, 255, 0.336);
+}
+
+.apple{
+  width: 18px;
+  height: 18px;
+  background-image: url("./APPLE.svg");
+  background-repeat: no-repeat;
+}
+
+.apple:hover{
+  color: #ffffff;
+
+}
+
+.appleText{
+  font-weight: 400;
+  color: #A7A7A7;
+}
+
+.lightAppleText{
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.google{
+  width: 18px;
+  height: 18px;
+  background-image: url("./google_play.svg") ;
+  background-repeat: no-repeat;
+}
+
+.googleText{
+  color: #A7A7A7;
+}
+
+.lightGoogleText{
+  color: #ffffff;
+
+}
+
+.icon{
+  display: block;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+}
+.icons{
+display: block;
+}
+
+
+.ico{
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  margin-right: 19px;
+  border: 1px solid transparent;
+  border-radius: 13px;
+}
+
+.icoFacebook{
+background-image: url('./ICOx320/facebook_icon.svg');
+}
+.icoTwitter{
+background-image: url('./ICOx320/twitter_icon.svg');
+}
+.icoLinkedin{
+background-image: url('./ICOx320/linkedin_icon.svg');
+}
+.icoInstagram{
+background-image: url('./ICOx320/instagram_icon.svg');
+}
+.icoGithub{
+background-image: url('./ICOx320/github_icon.svg');
+}
+
+.icoFacebook:hover{
+background-color: rgb(101, 101, 144);
+-webkit-box-shadow: 0px 0px 19px 4px rgba(74, 167, 238, 0.22);
+-moz-box-shadow: 0px 0px 19px 4px rgba(74, 167, 238, 0.22);
+box-shadow: 0px 0px 19px 4px rgba(74, 167, 238, 0.22);
+}
+.icoTwitter:hover{
+background-color: #397070;
+-webkit-box-shadow: 0px 0px 19px 4px rgba(75, 152, 132, 0.22);
+-moz-box-shadow: 0px 0px 19px 4px rgba(75, 152, 132, 0.22);
+box-shadow: 0px 0px 19px 4px rgba(75, 152, 132, 0.22);
+}
+.icoLinkedin:hover{
+background-color: #282866;
+-webkit-box-shadow: 0px 0px 19px 8px rgba(58, 81, 150, 0.22);
+-moz-box-shadow: 0px 0px 19px 8px rgba(58, 81, 150, 0.22);
+box-shadow: 0px 0px 19px 8px rgba(58, 81, 150, 0.22);
+}
+.icoInstagram:hover{
+background-color: #9d0f5b;
+-webkit-box-shadow: 0px 0px 20px 5px rgba(156, 24, 117, 0.21);
+-moz-box-shadow: 0px 0px 20px 5px rgba(139, 14, 101, 0.21);
+box-shadow: 0px 0px 20px 5px rgba(142, 16, 104, 0.21);
+}
+.icoGithub:hover{
+background-color: #680b5a;
+-webkit-box-shadow: 0px 0px 20px 5px rgba(195, 33, 147, 0.21);
+-moz-box-shadow: 0px 0px 20px 5px rgba(195, 33, 147, 0.21);
+box-shadow: 0px 0px 20px 5px rgba(195, 33, 147, 0.21);
+}
+
+.axure{
+font-family: 'Open sans', sans-serif;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+align-items: center;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+}

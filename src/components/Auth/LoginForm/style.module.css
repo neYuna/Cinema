@@ -1,0 +1,20 @@
+.mainLogin{
+margin: 0 auto; 
+text-align: center;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+p{
+  font-family: 'Orbitron';
+  color: rgb(249, 242, 242);
+  font-weight: 500;
+}

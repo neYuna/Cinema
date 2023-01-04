@@ -1,0 +1,5 @@
+.similarFilms{
+  display: grid;
+  column-gap: 7px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}

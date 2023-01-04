@@ -1,0 +1,70 @@
+.authInput {
+  background-color: transparent;
+  background-position: 2% 50%;
+  border: 3px solid #6c6666;
+  border-radius: 20px;
+  width: 561px;
+  height: 60px;
+  outline: none;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.lightAuthInput {
+  background-color: transparent;
+  background-position: 2% 50%;
+  border: 3px solid rgb(126, 82, 118);
+  border-radius: 20px;
+  width: 561px;
+  height: 60px;
+  outline: none;
+  color: rgb(228, 228, 228);
+}
+
+.mainInput {
+  position: relative;
+}
+
+.error {
+  border: 3px solid rgb(116, 9, 9);
+  /* margin-bottom: 10px; */
+}
+
+/* .title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color:rgb(132, 0, 0);
+  } */
+
+.text {
+  position: absolute;
+  font-family: 'Open Sans';
+  right: 35%;
+  bottom: -40%;
+  color: rgb(205, 30, 30);
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.closedEye {
+  position: absolute;
+  top: 27%;
+  right: 5%;
+  background: url("../../../assets/images/closed.svg");
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.openedEye {
+  position: absolute;
+  top: 27%;
+  right: 5%;
+  background: url("../../../assets/images/opened.svg");
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}

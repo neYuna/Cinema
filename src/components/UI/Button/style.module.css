@@ -1,0 +1,95 @@
+
+
+
+.button {
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background: transparent;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.button:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.lightButton:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.lightButton{
+  width: 120px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow:inset 2px 2px 2px 0px rgba(255, 255, 255, 0.781),
+   7px 7px 20px 0px rgba(0, 0, 0, 0.463),
+   4px 4px 5px 0px rgba(0, 0, 0, 0.429);
+  outline: none;
+  display: flex;
+  align-items:center;
+  justify-content: center; 
+  background: rgb(126, 82, 118);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+
+
+@media (max-width: 1000px) {
+  .button {
+    width: 100px;
+    height: 35px;
+  }
+}
+
+
+@media (max-width: 920px) {
+  .button {
+    width: 90px;
+    height: 33px;
+  }
+}
+
+@media (max-width: 800px) {
+  .button {
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 700px) {
+  .button {
+    width: 50px;
+    height: 20px;
+    font-size: 8px;
+    border-radius: 4px;
+  }
+}

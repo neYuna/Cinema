@@ -1,0 +1,172 @@
+.container {
+  max-width: 1400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.headerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burgerIcon {
+  display: flex;
+  gap: 156px;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.headerButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.clearButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+  text-decoration: none;
+  color: rgb(39, 3, 39);
+  text-shadow: 0 0 7px rgb(200, 140, 194), 0 0 10px rgb(173, 114, 178),
+    0 0 21px rgb(207, 146, 199), 0 0 42px rgb(32, 6, 40),
+    0 0 82px rgb(72, 12, 89), 0 0 92px rgb(65, 11, 81),
+    0 0 102px rgb(48, 18, 56), 0 0 151px rgb(86, 15, 105);
+}
+
+.lightLogo {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+  text-decoration: none;
+  color: rgb(251, 251, 251);
+  text-shadow: 0 0 7px rgb(200, 140, 194), 0 0 10px rgb(173, 114, 178),
+    0 0 21px rgb(207, 146, 199), 0 0 42px rgb(32, 6, 40),
+    0 0 82px rgb(72, 12, 89), 0 0 92px rgb(65, 11, 81),
+    0 0 102px rgb(48, 18, 56), 0 0 151px rgb(86, 15, 105);
+}
+
+.signedFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.username {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    font-size: 55px;
+  }
+
+  .burgerIcon {
+    gap: 115px;
+  }
+}
+
+@media (max-width: 999px) {
+  .logo {
+    font-size: 50px;
+  }
+
+  .burgerIcon {
+    gap: 115px;
+  }
+
+  .username {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    font-size: 45px;
+  }
+  .burgerIcon {
+    gap: 50px;
+  }
+
+  .signedFlex {
+    gap: 20px;
+  }
+
+  .username {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    font-size: 30px;
+  }
+
+  .burgerIcon {
+    gap: 50px;
+  }
+  .signedFlex {
+    gap: 15px;
+  }
+  .username {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  .logo {
+    font-size: 25px;
+  }
+
+  .burgerIcon {
+    gap: 40px;
+  }
+
+  .signedFlex {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 490px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .logo {
+    font-size: 15px;
+  }
+  .burgerIcon {
+    gap: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    font-size: 10px;
+  }
+  .burgerIcon {
+    gap: 40px;
+  }
+  .headerButtons {
+    display: flex;
+    gap: 15px;
+  }
+}

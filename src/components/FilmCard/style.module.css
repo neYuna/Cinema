@@ -1,0 +1,74 @@
+.card{
+  max-width: 230px;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  height: 420px;
+  margin-bottom: 35px;
+}
+.poster{
+  width: 230px;
+  height: 330px;
+  border-radius: 18px;
+  margin-bottom: 17px;
+}
+
+.poster:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.title{
+  font-family: 'Cinzel', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: whitesmoke;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.genres{
+  font-family: 'Cinzel', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: darkgrey;
+  text-align:left;
+  width: 160px;
+}
+
+.lightGenre{
+  font-family: 'Open sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-align:left;
+  margin: 0;
+}
+
+.rateAverage{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top: 10px;
+left: 10px;
+width: 30px;
+height: 20px;
+background-color: rgba(59, 57, 60, 0.854);
+-webkit-box-shadow: 0px 0px 30px 3px rgba(255, 255, 255, 0.374);;
+-moz-box-shadow: 0px 0px 30px 3px rgba(255, 255, 255, 0.409);
+box-shadow: 0px 0px 30px 3px rgba(255, 255, 255, 0.42);;
+color: white;
+font-weight: 500;
+border-radius: 6px;
+z-index: 20;
+}
+
+.iconsFlex{
+  position: absolute;
+  bottom: 1%;
+  right: 3%;
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,34 @@
+export interface ICard {
+  // id: number;
+  // title: string;
+  // tagline: string;
+  // vote_average: number;
+  // vote_count: number;
+  // release_date: string;
+  // poster_path: string;
+  // overview: string;
+  // budget: number;
+  // revenue: number;
+  // runtime: number;
+  // genres: string[];
+  kinopoiskId?: number; 
+  countries?: any[];
+  filmId: number;
+  filmLength: string;
+  genres: any[];
+  nameEn: string;
+  nameRu: string;
+  posterUrl: string;
+  shortDescription?: string;
+  slogan?: string;
+  posterUrlPreview?: string;
+  ratingImdb?: number;
+  rating?: string;
+  pagesCount?: number; 
+  ratingChange?: null;
+  ratingVoteCount: number;
+  year: string;
+  onClickFilm?: (id: number) => void;
+  liked?: boolean;
+  marked?: boolean;
+}

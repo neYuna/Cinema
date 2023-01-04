@@ -1,0 +1,37 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 30px;
+ 
+}
+
+.spaceInput{
+  margin-bottom: 41px;
+}
+.greenLink{
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+/* .mainDiv{
+  margin: 0 auto;
+  text-align: center;
+} */
+
+p{
+  font-size: 22px;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 15px;
+}
+
+.link{
+  padding-left: 7px;
+  color: rgb(110, 58, 128);
+}

@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.topMenu {
+  display: none;
+}
+.burgerMenu {
+  display: block;
+  position: relative;
+}
+.menuBtn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 650%;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.menuBtn > span,
+.menuBtn > span::before,
+.menuBtn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #9072a3;
+  transition-duration: 0.25s;
+}
+.menuBtn > span::before {
+  content: "";
+  top: -8px;
+}
+.menuBtn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menuBox {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  left: -100%;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  padding: 115px 0;
+  list-style: none;
+  background-color: #1c0724cf;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+  transition-duration: 0.25s;
+  z-index: 100;
+}
+
+
+
+.menuItem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: "Cinzel";
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+  transition-duration: 0.2s;
+  text-decoration: none;
+}
+.menuItem:hover {
+  background-color: #3b1648c5;
+  color: white;
+}
+
+#menuToggle {
+  opacity: 0;
+}
+
+#menuToggle:checked ~ .menuBtn > span {
+  transform: rotate(45deg);
+}
+#menuToggle:checked ~ .menuBtn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menuToggle:checked ~ .menuBtn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menuToggle:checked ~ .menuBox {
+  visibility: visible;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 800px) {
+  .menuBtn {
+   
+    left: 60%;
+   
+  }
+}
+@media (max-width: 769px) {
+  .menuBox {
+
+    width: 100%;
+  
+}}
+@media (max-width: 450px) {
+  .menuBtn {
+   
+    left: 10%;
+   
+  }
+}
+
+
+.active{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: "Cinzel";
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  transition-duration: 0.2s;
+  color:rgb(230, 117, 255);
+  text-decoration: underline;
+  margin: 0 auto;
+}
+
+.active:hover{
+  background-color: #3b1648c5;
+  color:rgb(230, 117, 255);
+}

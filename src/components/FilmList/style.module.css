@@ -1,0 +1,14 @@
+.filmsList{
+  display: grid;
+  column-gap: 7px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  justify-self: center;
+  align-items: center;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
